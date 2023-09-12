@@ -23,7 +23,7 @@ contract variableAssignment{
     num1 = _no;
    }
    }
-// we can also do this using a function
+// we can also do this using a function, if we don't need to update the data at the time of deployment
 
  contract assignValue2{
   string public hey2;
