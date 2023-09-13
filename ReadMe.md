@@ -6,7 +6,8 @@
 
 contract dataTypes{
 string greeting = "hello"; // first indicate the datatype, then variable name, and then you may or may not assign a value to the variable
-uint256 num = 9;  //same as above
+uint256 num = 9;  //unsigned integer...only positive integers. uint8 ranges from 1 to 2**8-1//255
+bool hey; // default value is false. if we want to make it true then bool public hey = true;
 } 
 
 contract variableAssignment{
