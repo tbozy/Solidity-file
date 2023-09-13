@@ -18,7 +18,10 @@ contract variableAssignment{
 
  contract assignValue{
   string public hey;
-  uint256 public num1;
+  uint256 public num1;// default value is 0
+  int256 public num2; //default value is 0
+  bool public defaultBool;// default value is false
+  address public hey; default value is 0x000000000...
 
    constructor(string memory _hey, uint _no){
     hey = _hey;
@@ -36,3 +39,8 @@ contract variableAssignment{
     num2 = _no;
    }
    }
+
+   //in solidity, datatype bytes represents a sequence of bytes. There is no difference between bytes and strings other than that bytes are more gas efficient
+   //So we can take Arrays as bytes or as strings, it is up to the developer.
+   //There are two types of Array namely, Fixed-sized byte Array and dynamic sized byte Array
+   
