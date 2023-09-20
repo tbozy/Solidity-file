@@ -38,6 +38,11 @@ contract variableAssignment{
     hey2 = _hey;
     num2 = _no;
    }
+
+   function sumInfo(uint _a, uint _b) public returns(uint){
+     uint newNumber = _a + _b;
+     hey = newNumber;
+     return hey;
    }
 
    //in solidity, datatype bytes represents a sequence of bytes. There is no difference between bytes and strings other than that bytes are more gas efficient
